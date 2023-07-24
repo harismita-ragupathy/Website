@@ -6,25 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Divum Homepage</title>
     <link rel="stylesheet" href="IndexPage.css">
+    <script src="index.js"></script>
 
 </head>
 
 <body>
+    <div class="main">
     <div class="tnav">
+        <img src="Logo.png" id="logo">
         <a href="#">Home</a>
         <a href="">Services</a>
         <a href="">Solutions</a>
         <a href="">Industry</a>
         <a href="">Technology</a>
-        <a href="" class="s1">
-            <Select> Company
-                <option>About us</option>
-                <option>NPD Meet</option>
-                <option>L&D</option>
-                <option>Gallery</option>
-                <option>NewsLetters</option>
-            </Select></a>
-        <button class="btn">Careers</button>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn ">Company</button>
+            <p id="myDropdown" class="dropdown-content">
+                <a href="#">About Us</a>
+                <a href="#">NPD Meet</a>
+                <a href="#">L&D</a>
+                <a href="#">Gallery</a>
+                <a href="#">NewsLetters</a>
+            </p>
+        </div>
+        </div>
     </div>
     <div class="block2">
         <h1>YOUR TRUSTED PARTNER FOR <br>DIGITAL TRANSFORMATION &amp; NEW PRODUCT<br>
@@ -42,7 +47,7 @@
             <br>
             <p id="light-text">We love taking your vision to reality.</p>
             <br>
-            <button class="btn-1">CONTACT US </button>
+            <button class="btn-1" onclick="buttonAnimation('btn-1')">CONTACT US </button>
             <br>
         </div>
         <div class="sblock3">

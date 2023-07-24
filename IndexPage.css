@@ -6,8 +6,8 @@ body{
     font-family:Arial, Helvetica, sans-serif;
     width: 600px;
     height:20px;
-    background-color:  rgb(52, 52, 204);
-    padding: 42px 250px 40px 850px;
+    background-color:  #3C4AED;
+    padding: 40px 10px 40px 500px;
     word-spacing: 20px; 
 
 }
@@ -21,7 +21,7 @@ body{
     border-radius: 90px;
     border-color: rgb(184, 184, 184);
     color:white;
-    background-color: rgb(52, 52, 204);
+    background-color: #3C4AED;
     padding:10px 20px 10px 20px;
 }
 .btn:hover{
@@ -30,18 +30,18 @@ body{
 
 }
 Select{
-    background-color: rgb(52, 52, 204);
+    background-color: #3C4AED;
     color:white;
-    border-color:  rgb(52, 52, 204);
+    border-color:  #3C4AED;
     font-family:Arial, Helvetica, sans-serif;
 }
 option{
-    background-color:  rgb(52, 52, 204);
+    background-color:  #3C4AED;
     color:white;
-    border-color:  rgb(52, 52, 204);
+    border-color:  #3C4AED;
 }
 .block2{
-    background-color:  rgb(52, 52, 204);
+    background-color:  #3C4AED;
    font-family: 'Times New Roman', Times, serif;
    font-size: large;
     color:white;
@@ -103,7 +103,7 @@ option{
 }
 .btn-1{
     border-radius: 22px;
-    color: rgb(52, 52, 204);
+    color: #3C4AED;
     padding:15px 20px 15px 20px;
     background-color: white;
     letter-spacing: 2px;
@@ -112,7 +112,7 @@ option{
 }
 .btn-1:hover{
     color:white;
-    background-color:  rgb(52, 52, 204);
+    background-color:  #3C4AED;
     
 }
 /* .grid{
@@ -358,4 +358,53 @@ font-family:Arial, Helvetica, sans-serif;
     width:25%;
     height:400px;
     background-color: black;
+}
+.pressed {
+    box-shadow: 0 3px 4px 0 rgba(235, 229, 229, 0.952);
+    opacity: 0.5;
+    /* background-color: rgb(189, 180, 181); */
+}
+
+.dropbtn {
+    background-color: #3C4AED;
+    color: white;
+    font-family: Verdana,Tahoma, sans-serif;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #3C4AED;
+    min-width: 160px;
+    overflow: auto;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.show {
+    display: block;
+}
+
+#logo {
+    /* margin-top:2rem; */
+    height: 55px;
+    padding-right: 120px;
+}
+.main{
+    width: 100%;
+    background-color: #3C4AED;
 }
